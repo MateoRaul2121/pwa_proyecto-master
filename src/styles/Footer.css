@@ -1,0 +1,50 @@
+/* General styling for the footer */
+.footer {
+  background-color: #2c3e50; /* Dark blue background */
+  color: #ecf0f1; /* Light grey text */
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 50px;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer info section */
+.footer-info {
+  margin-bottom: 15px;
+}
+
+.footer-info p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+/* Social media icons */
+.footer-socials {
+  margin-top: 10px;
+}
+
+.footer-socials a {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: #ecf0f1;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-socials a:hover {
+  color: #f39c12; /* Yellow color on hover */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .footer-info p {
+    font-size: 0.8rem;
+  }
+
+  .footer-socials a {
+    font-size: 1.3rem;
+    margin: 0 8px;
+  }
+}
